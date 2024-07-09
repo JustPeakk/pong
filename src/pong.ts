@@ -1,18 +1,8 @@
-const ANCHO_TABLERO = 640;
-const ALTO_TABLERO = 480;
-const ANCHO_PALETA = 10;
-const ALTO_PALETA = 80;
-const ANCHO_PELOTA = 20;
-const ALTO_PELOTA = 20;
-const COLOR_TABLERO = "black";
-const COLOR_PALETA_1 = "red";
-const COLOR_PALETA_2 = "blue";
-const COLOR_PELOTA = "white";
-const SEPARACION_PALETA_PARED = 30;
-const SALTO_PALETA = 5;
-const SALTO_PELOTA = 7;
 /* eslint-disable prefer-const */
 /* eslint-disable @typescript-eslint/no-unused-vars */
+
+import { ANCHO_TABLERO } from "./config";
+
 type Point = {
   x: number;
   y: number;
