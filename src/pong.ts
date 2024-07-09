@@ -1,7 +1,21 @@
 /* eslint-disable prefer-const */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-import { ANCHO_TABLERO } from "./config";
+import {
+  ALTO_PALETA,
+  ALTO_PELOTA,
+  ALTO_TABLERO,
+  ANCHO_PALETA,
+  ANCHO_PELOTA,
+  ANCHO_TABLERO,
+  COLOR_PALETA_1,
+  COLOR_PALETA_2,
+  COLOR_PELOTA,
+  COLOR_TABLERO,
+  SALTO_PALETA,
+  SALTO_PELOTA,
+  SEPARACION_PALETA_PARED,
+} from "./config";
 
 type Point = {
   x: number;
